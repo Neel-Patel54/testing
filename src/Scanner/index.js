@@ -10,9 +10,9 @@ import {
 import QRCodeScanner from 'react-native-qrcode-scanner';
 import { RNCamera } from 'react-native-camera';
 import {check, PERMISSIONS, openSettings, RESULTS} from 'react-native-permissions';
-import { styles } from './styles';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import { styles } from './styles';
 
 const Scanner = ({ navigation }) => {
   const [isFlash, setIsFlash] = useState(false);
